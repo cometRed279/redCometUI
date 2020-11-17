@@ -1,0 +1,33 @@
+.contain-below-header{
+    width: calc(100% - 70px);
+    position: relative;
+    left: 70px;
+}
+.dashboard-container{
+   height: 100%;
+   padding: 40px 200px;
+   background-color: whitesmoke;
+}
+.form-container{
+    display: flex !important;
+    flex-direction: row;
+}
+.create-user-form{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.w-third{
+    width: 33.33%;
+}
+
+.w-half{
+    width: 50%;
+}
+
+.profile-pic-wrap{
+    width: 150px;
+    min-width: 150px;
+    font-size: 130px;
+}

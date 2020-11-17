@@ -1,0 +1,38 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="header-navbar">
+  <div class="logo"> 
+    <img src="assets/images/Logo.png" alt="">
+  </div>
+  <div *ngIf="userProfile.isAuthenticated()" class="avatar">
+    <div class="profile-info"> 
+      <div>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <span class="fa fa-caret-down"></span>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <span>Change Password</span>
+          </button>
+          <button mat-menu-item>
+            <span>Proxy</span>
+          </button>
+          <button mat-menu-item (click)="logoutUser($event)">
+            <span>Logout</span>
+          </button>
+        </mat-menu>
+        
+      </div>
+      <div>
+        Siddharth <br/>
+        Nanaval
+      </div>
+    </div>
+    <i class="fa fa-user-circle"></i>
+  </div>
+</div>
+<div *ngIf="userProfile.isAuthenticated()" class="side-bar-nav">
+  <app-side-bar></app-side-bar>
+</div>
+<div class="container-wrapper">
+    <router-outlet></router-outlet>
+</div>

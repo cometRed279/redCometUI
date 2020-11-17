@@ -1,0 +1,60 @@
+.contain-below-header{
+    width: calc(100% - 70px);
+    position: relative;
+    left: 70px;
+}
+.dashboard-container{
+   height: 100%;
+}
+
+table {
+    width: 100%;
+  }
+
+  .table-card-wrapper{
+      height: calc(100%);
+  }
+
+ ::ng-deep .mat-card-title{
+     margin-left: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+
+ .table-wrap{
+     width: 100%;
+     height: calc(100% - 70px);
+     overflow: auto;
+ }
+
+ .left{
+     float: left;
+ }
+
+ .table-filter{
+     width: 300px;
+     border: none;
+     border-bottom: 1px solid black;
+     font-size: 17px;
+     position: relative;
+     top: 5px;
+    
+ }
+
+ .table-filter:focus{
+    outline: none;
+}
+
+ .right{
+     float: right;
+     position: relative;
+     right: 10px;
+     bottom: 5px;
+    .filter-field{
+        margin-right: 20px;
+    }
+ }
+ .user-options em{
+    font-size: 33px;
+ }

@@ -1,0 +1,11 @@
+{
+    "/w_service/*": {
+      "target": "http://13.58.192.0:8081/redcomet/agilix",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/w_service": ""
+      }
+    }
+  }

@@ -1,0 +1,15 @@
+.contain-below-header{
+    width: calc(100% - 70px);
+    position: relative;
+    left: 70px;
+}
+
+.mat-tab-group, .mat-tab-body, .mat-tab-body-wrapper{
+    background-color: whitesmoke;
+    height: 100%;
+    overflow: auto;
+}
+
+::ng-deep .mat-tab-header{
+    background-color: white !important;
+}

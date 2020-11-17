@@ -1,0 +1,28 @@
+.contain-below-header{
+    width: calc(100% - 70px);
+    position: relative;
+    left: 70px;
+}
+.dashboard-container{
+   height: 100%;
+   padding: 70px 300px !important;
+   background-color: whitesmoke;
+}
+
+.create-domain-card{
+    // margin: 70px 70px !important;
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    *{
+        margin-left: 15px;
+    }
+}

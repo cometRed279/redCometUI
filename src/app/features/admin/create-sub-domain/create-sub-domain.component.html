@@ -1,0 +1,32 @@
+
+<div class="contain-below-header">
+  <div class="dashboard-container">
+
+    <mat-card class='create-domain-card'>
+      <form>
+        <mat-form-field class='w-100'>
+          <mat-label>Name</mat-label>
+          <input matInput required autocomplete="off">
+        </mat-form-field>
+
+        <mat-form-field class='w-100'>
+          <mat-label>Userspace</mat-label>
+          <input matInput required autocomplete="off">
+        </mat-form-field>
+
+        <mat-form-field class='w-100'>
+          <mat-label>External ID</mat-label>
+          <input matInput autocomplete="off">
+        </mat-form-field>
+        <div class='footer'>
+          <button mat-raised-button color="primary">
+            CREATE
+          </button>
+          <button mat-button color="primary" routerLink="/dashboard">CANCEL</button>
+        </div>
+
+      </form>
+    </mat-card>
+
+  </div>
+</div>

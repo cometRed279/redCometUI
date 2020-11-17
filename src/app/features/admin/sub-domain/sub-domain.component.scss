@@ -1,0 +1,41 @@
+
+table {
+    width: 100%;
+  }
+
+  .table-card-wrapper{
+      height: calc(100%);
+  }
+
+.right{
+    float: right !important;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+   .filter-field{
+       margin-right: 20px;
+   }
+}
+.user-options em{
+   font-size: 33px;
+}
+
+.table-wrap{
+    width: 100%;
+    height: calc(100% - 70px);
+    overflow: auto;
+}
+
+.table-filter{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+   
+}
+
+.table-filter:focus{
+   outline: none;
+}

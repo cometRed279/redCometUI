@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+$whiteSmoke: #ededed;
+
+
+html, body {height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+* {
+    box-sizing: border-box;
+  }
+  
+.w-100{
+    width: 100%;
+}
+
+.w-90{
+  width: 90% !important;
+}
+
+.pl-3{
+  padding-left: 10px;
+}
+
+.h-100{
+  height: 100%;
+}
+
+.error {
+  * {
+    color: red;
+  }
+}
+
+.bg-gray{
+background-color: $whiteSmoke;
+}
+
+.contain-below-header{
+  height: 100%;
+  padding-top: 80px;
+}
+
+.pointer-cursor{
+  cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  *{
+      margin-left: 15px;
+  }
+}

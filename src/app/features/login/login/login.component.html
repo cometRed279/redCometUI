@@ -1,0 +1,26 @@
+<div class="container">
+    <form class="login" [formGroup]="loginGroup" (ngSubmit)="onLogin()">
+        <div class="login-head">
+          <img class="logo" src="assets/images/GradHat 1.png" alt="">
+          <div class="logo-title">
+            <span>Arkansas Education Facility</span> 
+          </div>
+        </div>
+        <div *ngIf="error" class="error">
+          <p>Credentials are not valid </p>
+        </div>
+        <div class="form-field">
+          <mat-form-field class="w-100">
+              <input matInput placeholder="Username" formControlName="username" type="text" autocomplete="off" required>
+            </mat-form-field>
+        </div>
+        <div class="form-field">
+          <mat-form-field class="w-100">
+                <input matInput placeholder="Password" formControlName="password" type="password" required>
+              </mat-form-field>
+            </div>
+        <div class="form-field submit-button">
+            <button type="submit" mat-raised-button> Login </button>
+        </div>
+      </form>
+</div>

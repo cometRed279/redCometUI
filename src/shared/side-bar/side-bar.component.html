@@ -1,0 +1,16 @@
+<div class="side-nav-wrapper" [ngClass]="{'grayout': mouseIn}">
+<div class="side-bar" (mouseenter)="mouseEntered($event)" (mouseleave)="mouseLeave($event)">
+  <div class="icon-wrapper pointer-cursor" (click)="navigateTo('dashboard')">
+    <i class="fa fa-home"></i>
+    Dashboard
+  </div>
+  <div class="icon-wrapper pointer-cursor" (click)="navigateTo('users')">
+    <i class="fa fa-users"></i>
+    Users
+  </div>
+  <div class="icon-wrapper pointer-cursor" (click)="navigateTo('courses')">
+    <i class="fa fa-book"></i>
+    Courses
+  </div>
+</div>
+</div>

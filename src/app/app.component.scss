@@ -1,0 +1,59 @@
+.header-navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding: 5px 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 901;
+    box-shadow: 1px 1px 5px grey;
+    box-shadow:20px white;
+    background: linear-gradient(to right, white, rgba(255,0,0,0));
+    img {
+        width: 120px;
+    }
+}
+
+
+.container-wrapper{
+    height: calc(100vh);
+}
+.profile-section{
+    height: inherit;
+}
+
+.profile-icon{
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.side-bar-nav{
+    position: absolute;
+    top: 80px;
+    height: calc(100% - 80px);
+    z-index: 900;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.avatar {
+    display: flex;
+    align-items: center;
+     i {
+    font-size:  40px;
+    }
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    div{
+        padding-right: 10px;
+    }
+}

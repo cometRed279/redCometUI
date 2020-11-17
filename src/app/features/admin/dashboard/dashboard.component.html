@@ -1,0 +1,15 @@
+<div class="contain-below-header">
+ <div class="dashboard-container h-100">
+  <mat-tab-group (selectedIndexChange)="changeTab($event)">
+    <mat-tab *ngFor="let tab of links;  let index = index">
+      <ng-template mat-tab-label>{{tab}}</ng-template>
+      <ng-container *ngIf="activeLink === links[0]" class="h-100">
+        <app-domain></app-domain>
+      </ng-container>
+      <ng-container *ngIf="activeLink === links[1]" class="h-100">
+        <app-sub-domain></app-sub-domain>
+      </ng-container>
+    </mat-tab>
+  </mat-tab-group>
+ </div>
+</div>

@@ -1,0 +1,25 @@
+.contain-below-header{
+    width: calc(100% - 70px);
+    position: relative;
+    left: 70px;
+}
+.dashboard-container{
+   height: 100%;
+}
+
+.filetextarea{
+    margin-top: 10px;
+    height: 80%;
+}
+
+.fileText{
+    width: 100%;
+    height: calc(100vh - 270px);
+    white-space: nowrap;
+    overflow: auto;
+    resize: none;
+}
+
+.full-size-table{
+ width: 100%;
+}

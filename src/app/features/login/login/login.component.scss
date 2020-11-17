@@ -1,0 +1,59 @@
+.container{
+    background: url(src/assets/images/Clouds1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.login{
+    width: 30%;
+    min-width: 200px;
+    height: 50%;
+    min-height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.form-field{
+    width: 80%;
+    margin: 5px;
+}
+
+.login-head, .error{
+    width: 80%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    .logo{
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        min-height: 50px;
+    }
+}
+
+.logo-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.submit-button button {
+    width: 100%;
+    background-color: #0baee6;
+    color: white;
+}
